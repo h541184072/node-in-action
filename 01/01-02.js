@@ -6,7 +6,6 @@ const server = http.createServer((req, res) => {
 })
 
 server.listen(port, () => {
-  debugger
   console.log('on: http://localhost:%s', port)
 })
 
