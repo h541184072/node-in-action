@@ -9,3 +9,6 @@ my_moudle
 2-9-2 net 聊天室 client 可启用多个进程启动   process.stdin
 
 2-11 电子书的net 聊天室 加上 自定的EventEmitter
+
+process_uncaughtException.js
+    错误捕捉 少用
