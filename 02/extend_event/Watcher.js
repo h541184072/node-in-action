@@ -19,7 +19,8 @@ class Watcher extends events.EventEmitter {
   }
 
   start() {
-    fs.watchFile(this.watchDir, () => {
+    fs.watchFile(this.watchDir, () => { // 书里的
+    // fs.watch(this.watchDir, { recursive: true }, () => { // 不能递归
       console.log('start')
       this.watch()
     })

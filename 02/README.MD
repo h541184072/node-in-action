@@ -12,3 +12,6 @@ my_moudle
 
 process_uncaughtException.js
     错误捕捉 少用
+
+extend_event
+    fs.watchFile    fs.readdir    fs.rename
