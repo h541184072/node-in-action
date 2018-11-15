@@ -15,3 +15,6 @@ process_uncaughtException.js
 
 extend_event
     fs.watchFile    fs.readdir    fs.rename
+
+2-17
+    串行化流程 fs request htmlparser 
