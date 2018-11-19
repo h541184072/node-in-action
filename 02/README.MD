@@ -18,3 +18,6 @@ extend_event
 
 2-17
     串行化流程 fs request htmlparser
+
+2-18
+    并行化流程 fs.readdir fs.readFile
