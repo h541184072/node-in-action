@@ -1,0 +1,10 @@
+const connect = require('connect')
+const errorHandler = require('./errorHandler.js')
+connect()
+  .use((req, res) => {
+    foo()
+    res.setHeader('Content-Type', 'text/plain')
+    res.end('hello')
+  })
+  .use(errorHandler)
+  .listen(3002)
