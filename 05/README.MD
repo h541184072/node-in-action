@@ -2,7 +2,7 @@ connect_demo
     log中间件
     error中间件
 
-express_generator_demo - listing6_6
+express_generator_demo - listing6_6  （看完，但是不想跑了)
     redis
         db.lrange('entries', from, to, (err, items) => {}）
         db.lpush(
@@ -28,3 +28,7 @@ express_generator_demo - listing6_6
             });
     debug
         set DEBUG=* & npm start
+
+
+listing6_34
+    书里最后的代码
