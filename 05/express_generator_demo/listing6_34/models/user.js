@@ -1,3 +1,5 @@
+'use strict';
+
 const redis = require('redis');
 const bcrypt = require('bcrypt');
 const db = redis.createClient();
