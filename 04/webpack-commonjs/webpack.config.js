@@ -2,6 +2,6 @@ const path = require('path');
 const webpack = require('webpack');
  
 module.exports = {
-  entry: './app/index.js',
+  entry: './app/db.js',
   output: { path: __dirname, filename: 'dist/bundle.js' },
 };
