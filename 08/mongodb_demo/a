@@ -1,0 +1,9 @@
+mongod --port 27017 --dbpath ./rs0-data/db0 --replSet re0 &
+mongod --port 27018 --dbpath ./rs0-data/db1 --replSet re0 &
+mongod --port 27019 --dbpath ./rs0-data/db2 --replSet re0 &
+
+
+mongo --eval "res.initiate()"
+mongo --eval "res.add('`hostname`:27017')"
+mongo --eval "res.add('`hostname`:27018')"
+mongo --eval "res.add('`hostname`:27019')"
